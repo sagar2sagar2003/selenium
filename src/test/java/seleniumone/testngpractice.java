@@ -52,5 +52,15 @@ public class testngpractice {
 		
 		
 	}
+	@Test
+	public void captureFacebook() throws InterruptedException
+	{
+		
+		driver.navigate().to("https://www.facebook.com/");		
+		Thread.sleep(3000);
+		System.out.println(driver.getTitle());
+		
+		
+	}
 	
 }
