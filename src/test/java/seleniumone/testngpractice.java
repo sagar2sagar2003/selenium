@@ -59,6 +59,17 @@ public class testngpractice {
 		driver.navigate().to("https://www.facebook.com/");		
 		Thread.sleep(3000);
 		System.out.println(driver.getTitle());
+		System.out.println("inside CaptureFacebook method");
+		
+	}
+	
+	@Test
+	public void captureTitleSpiceJet() throws InterruptedException
+	{
+		
+		driver.navigate().to("https://www.spicejet.com/");		
+		Thread.sleep(3000);
+		System.out.println(driver.getTitle());
 		
 		
 	}
