@@ -1,0 +1,7 @@
+<suite name="MyTestSuite" parallel="methods" thread-count="1">
+    <test name="MyTest2025">
+        <classes>
+            <class name="seleniumone.testngpractice"/>
+        </classes>
+    </test>
+</suite>
